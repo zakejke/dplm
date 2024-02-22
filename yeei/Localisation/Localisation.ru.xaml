@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Setting">Настройки</sys:String>
+    <sys:String x:Key="Employees">Список сотрудников</sys:String>
+    <sys:String x:Key="Stock">Склад</sys:String>
+    <sys:String x:Key="Services">Услуги</sys:String>
+    <sys:String x:Key="Orders">Заказы</sys:String>
+    <sys:String x:Key="Add new">Добавить</sys:String>
+    <sys:String x:Key="Edit">Редактировать</sys:String>
+    <sys:String x:Key="Delete">Удалить</sys:String>
+    <sys:String x:Key="id or №">id или №</sys:String>
+    <sys:String x:Key="Name">Имя</sys:String>
+    <sys:String x:Key="Price">Цена</sys:String>
+    <sys:String x:Key="Quantity in stock">Кол-во на складе</sys:String>
+    <sys:String x:Key="Save">Сохранить</sys:String>
+    <sys:String x:Key="Last Name">Фамилия</sys:String>
+    <sys:String x:Key="Surname">Отчество</sys:String>
+    <sys:String x:Key="Telephone">Телефон</sys:String>
+    <sys:String x:Key="Working hours">Время работы</sys:String>
+    <sys:String x:Key="Work address">Адрес проведения работ</sys:String>
+    <sys:String x:Key="Time spending">Время проведения</sys:String>
+    <sys:String x:Key="Customer number">Номер заказчика</sys:String>
+    <sys:String x:Key="Service name">Название услуги</sys:String>
+    <sys:String x:Key="Enter to search">Введите для поиска</sys:String>
+    <sys:String x:Key="OOO 《Electrical installation management》">《ЭЛЕКТРОМОНТАЖНОЕ УПРАВЛЕНИЕ》</sys:String>
+
+    <sys:String x:Key="title_SD">Список дел</sys:String>
+    <sys:String x:Key="tb_CreationDate">Дата создания</sys:String>
+    <sys:String x:Key="tb_Done">Сделано</sys:String>
+    <sys:String x:Key="tb_Dela">Дела</sys:String>
+    
+  
+
+</ResourceDictionary>

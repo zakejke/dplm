@@ -1,0 +1,49 @@
+﻿<Page x:Class="yeei.Pages.Add_Sotrudniki_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:yeei.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Add_Sotrudniki_Page"
+       IsVisibleChanged="Sot_Vis_Change">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF232B44" Offset="0.003"/>
+                <GradientStop Color="#FF63074B" Offset="0.75"/>
+                <GradientStop Color="#FF60068A" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel MaxWidth="500" Margin="0,20,0,0">
+            <TextBlock Text="{DynamicResource Last Name}" FontSize="20"/>
+            <TextBox Text="{Binding Surname}"/>
+
+            <TextBlock Text="{DynamicResource Name}" FontSize="20"/>
+            <TextBox Text="{Binding Name}"/>
+
+            <TextBlock Text="{DynamicResource Telephone}" FontSize="20"/>
+            <TextBox Text="{Binding PhoneSotr}"/>
+
+            <TextBlock Text="{DynamicResource Working hours}" FontSize="20"/>
+
+            <ComboBox Text="{Binding Famsotr}">
+                <ComboBoxItem Content="8:00-20:00"/>
+                <ComboBoxItem Content="Не работает"/>
+            </ComboBox>
+
+
+        </StackPanel>
+        <RadioButton Content="{DynamicResource Save}" Style="{StaticResource MenuButtonTheme}" Height="40" Foreground="White" FontSize="24"  FontFamily="Comic Sans MS" Click="Save_Click" Margin="296,5,296,5" Grid.Row="1" />
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,30 @@
+﻿<Page x:Class="yeei.Pages.Setting_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:yeei.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Setting_Page">
+
+    <Grid Style="{DynamicResource GridStyle}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="189*"/>
+            <RowDefinition Height="61*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="2" Margin="0,0,0,10">
+            <ComboBox  SelectionChanged="cbLangChancked" HorizontalAlignment="Right" Width="50" Name="cbLearn" FontSize="15" Margin="0,13,10,10" BorderBrush="#FFBB4E4E" Foreground="#FFFDFDFD" Grid.Row="2" Height="32">
+                <ComboBoxItem Content="Ru" Tag="RU"/>
+                <ComboBoxItem Content="En" Tag="EN"/>
+            </ComboBox>
+        </StackPanel>
+        
+        
+
+
+    </Grid>
+</Page>

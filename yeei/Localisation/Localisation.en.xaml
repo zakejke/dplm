@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+
+
+    <sys:String x:Key="Setting">Setting</sys:String>
+    <sys:String x:Key="Employees">Employees</sys:String>
+    <sys:String x:Key="Stock">Stock</sys:String>
+    <sys:String x:Key="Services">Services</sys:String>
+    <sys:String x:Key="Orders">Orders</sys:String>
+    <sys:String x:Key="Add new">Add new</sys:String>
+    <sys:String x:Key="Edit">Edit</sys:String>
+    <sys:String x:Key="Delete">Delete</sys:String>
+    <sys:String x:Key="id or №">id or №</sys:String>
+    <sys:String x:Key="Name">Name</sys:String>
+    <sys:String x:Key="Price">Price</sys:String>
+    <sys:String x:Key="Quantity in stock">Quantity in stock</sys:String>
+    <sys:String x:Key="Save">Save</sys:String>
+    <sys:String x:Key="Last Name">Last Name</sys:String>
+    <sys:String x:Key="Surname">Surname</sys:String>
+    <sys:String x:Key="Telephone">Telephone</sys:String>
+    <sys:String x:Key="Working hours">Working hours</sys:String>
+    <sys:String x:Key="Work address">Work address</sys:String>
+    <sys:String x:Key="Time spending">Time spending</sys:String>
+    <sys:String x:Key="Customer number">Customer number</sys:String>
+    <sys:String x:Key="Service name">Service name</sys:String>
+    <sys:String x:Key="Enter to search">Enter to search</sys:String>
+    <sys:String x:Key="OOO 《Electrical installation management》">OOO 《Electrical installation management》ООО</sys:String>
+
+
+    <sys:String x:Key="title_SD">To-do list</sys:String>
+    <sys:String x:Key="tb_CreationDate">Creationdate</sys:String>
+    <sys:String x:Key="tb_Done">Done</sys:String>
+    <sys:String x:Key="tb_Dela">Affairs</sys:String>
+    
+
+
+
+
+</ResourceDictionary>

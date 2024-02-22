@@ -1,0 +1,55 @@
+﻿<Page x:Class="yeei.Pages.Add_Zakazi_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:yeei.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Добавить заказ" 
+      IsVisibleChanged="Zak_Vis_Change">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF232B44" Offset="0.003"/>
+                <GradientStop Color="#FF63074B" Offset="0.75"/>
+                <GradientStop Color="#FF60068A" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel MaxWidth="500">
+            <TextBlock Text="{DynamicResource Last Name}" FontSize="20"/>
+            <TextBox Text="{Binding Familia}"/>
+
+            <TextBlock Text="{DynamicResource Name}" FontSize="20"/>
+            <TextBox Text="{Binding Name}"/>
+
+            <TextBlock Text="{DynamicResource Surname}" FontSize="20"/>
+            <TextBox Text="{Binding Otchestvo}"/>
+
+            <TextBlock Text="{DynamicResource Work address}" FontSize="20"/>
+            <TextBox Text="{Binding Adres}" Background="White"/>
+
+            <TextBlock Text="{DynamicResource Time spending}" FontSize="20"/>
+            <TextBox Text="{Binding Vremya}"/>
+
+            <TextBlock Text="{DynamicResource Customer number}" FontSize="20"/>
+            <TextBox Text="{Binding Nomer}"/>
+
+            <TextBlock Text="{DynamicResource Service name}" FontSize="20"/>
+            <TextBox Text="{Binding Usluga}"/>
+
+
+
+
+
+        </StackPanel>
+        <RadioButton Content="{DynamicResource Save}" Style="{StaticResource MenuButtonTheme}" Height="40" Foreground="White" FontSize="24"  FontFamily="Comic Sans MS" Click="Save_Click" Margin="272,5,320,5" Grid.Row="2" />
+        
+    </Grid>
+</Page>
